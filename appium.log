@@ -1,0 +1,177 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 56462
+[Appium]   chromeDriverPort: 56463
+[Appium]   tmpDir: /var/folders/cw/2__wmwwx43d5pwv37mcslbm80000gn/T//Katalon/Appium/Temp1540643301462
+[Appium] Appium REST http interface listener started on 0.0.0.0:56462
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 19 ms - 83
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 14 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/appleramos/Downloads/Mobile-Automation-Katalon/Data Files/PeraHub v1.0.5-QAT.app","automationName":"XCUITest","deviceId":"FFBFBB9A-09BF-470A-92E0-B575027918D7","deviceName":"iPhone 6","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"FFBFBB9A-09BF-470A-92E0-B575027918D7","waitForAppScript":"true;","wdaLocalPort":56481},"capabilities":{"desiredCapabilities":{"app":"/Users/appleramos/Downloads/Mobile-Automation-Katalon/Data Files/PeraHub v1.0.5-QAT.app","automationName":"XCUITest","deviceId":"FFBFBB9A-09BF-470A-92E0-B575027918D7","deviceName":"iPhone 6","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"FFBFBB9A-09BF-470A-92E
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/appleramos/Downloads/Mobile-Automation-Katalon/Data Files/PeraHub v1.0.5-QAT.app","automationName":"XCUITest","deviceId":"FFBFBB9A-09BF-470A-92E0-B575027918D7","deviceName":"iPhone 6","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"FFBFBB9A-09BF-470A-92E0-B575027918D7","waitForAppScript":"true;","wdaLocalPort":56481},null,{"desiredCapabilities":{"app":"/Users/appleramos/Downloads/Mobile-Automation-Katalon/Data Files/PeraHub v1.0.5-QAT.app","automationName":"XCUITest","deviceId":"FFBFBB9A-09BF-470A-92E0-B575027918D7","deviceName":"iPhone 6","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"FFBFBB9A-09BF-470A-92E0-B575027918D7","waitForAppScript":"true;","wdaLocalP...
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1540643315816 (20:28:35 GMT+0800 (+08))
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","automationName","deviceId","deviceName","fullReset","newCommandTimeout","noReset","platformName","realDeviceLogger","udid","waitForAppScript","wdaLocalPort"]. Falling back to JSONWP protocol.
+[Appium] Creating new XCUITestDriver (v2.84.0) session
+[Appium] Capabilities:
+[Appium]   app: /Users/appleramos/Downloads/Mobile-Automation-Katalon/Data Files/PeraHub v1.0.5-QAT.app
+[Appium]   automationName: XCUITest
+[Appium]   deviceId: FFBFBB9A-09BF-470A-92E0-B575027918D7
+[Appium]   deviceName: iPhone 6
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platformName: iOS
+[Appium]   realDeviceLogger: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole
+[Appium]   udid: FFBFBB9A-09BF-470A-92E0-B575027918D7
+[Appium]   waitForAppScript: true;
+[Appium]   wdaLocalPort: 56481
+[debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {"app":"/Users/appleramos/D...
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId.
+[BaseDriver] Session created with session id: 1658547c-2c94-42d8-8c44-696184f38c00
+[debug] [XCUITest] Current user: 'appleramos'
+[debug] [XCUITest] Xcode version set to '9.4.1' (tools v10.0.0.0.1.1535735448)
+[debug] [XCUITest] iOS SDK Version set to '11.4'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1540643316090 (20:28:36 GMT+0800 (+08))
+[iOSSim] Constructing iOS simulator for Xcode version 9.4.1 with udid 'FFBFBB9A-09BF-470A-92E0-B575027918D7'
+[XCUITest] Determining device to run tests on: udid: 'FFBFBB9A-09BF-470A-92E0-B575027918D7', real device: false
+[XCUITest] No platformVersion specified. Using device version: '11.4'
+[BaseDriver] Using local app '/Users/appleramos/Downloads/Mobile-Automation-Katalon/Data Files/PeraHub v1.0.5-QAT.app'
+[debug] [BaseDriver] Event 'appConfigured' logged at 1540643316475 (20:28:36 GMT+0800 (+08))
+[debug] [XCUITest] Checking whether app '/Users/appleramos/Downloads/Mobile-Automation-Katalon/Data Files/PeraHub v1.0.5-QAT.app' is actually present on file system
+[debug] [XCUITest] App is present
+[debug] [iOS] Getting bundle ID from app '/Users/appleramos/Downloads/Mobile-Automation-Katalon/Data Files/PeraHub v1.0.5-QAT.app': 'com.whitecloak.PeraHub'
+[debug] [BaseDriver] Event 'resetStarted' logged at 1540643316480 (20:28:36 GMT+0800 (+08))
+[debug] [XCUITest] Reset: noReset is on. Leaving simulator as is
+[debug] [BaseDriver] Event 'resetComplete' logged at 1540643316481 (20:28:36 GMT+0800 (+08))
+[debug] [XCUITest] Starting log capture for iOS Simulator with udid 'FFBFBB9A-09BF-470A-92E0-B575027918D7', using 'xcrun simctl spawn FFBFBB9A-09BF-470A-92E0-B575027918D7 log stream --style compact'
+[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1540643317130 (20:28:37 GMT+0800 (+08))
+[XCUITest] Setting up simulator
+[debug] [iOS] No reason to set locale
+[debug] [iOS] No iOS / app preferences to set
+[debug] [iOSSim] Matched 1 Simulator cache item for cleanup: /Users/appleramos/Library/Developer/CoreSimulator/Devices/FFBFBB9A-09BF-470A-92E0-B575027918D7/data/Library/Caches/com.apple.mobile.installd.staging
+[debug] [iOSSim] Setting preferences of FFBFBB9A-09BF-470A-92E0-B575027918D7 Simulator to {"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] Setting common Simulator preferences to {"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] Updated FFBFBB9A-09BF-470A-92E0-B575027918D7 Simulator preferences at '/Users/appleramos/Library/Preferences/com.apple.iphonesimulator.plist' with {"DevicePreferences":{"FFBFBB9A-09BF-470A-92E0-B575027918D7":{"ConnectHardwareKeyboard":false}},"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] The count of running Simulator UI client instances is 1
+[iOSSim] Both Simulator with UDID FFBFBB9A-09BF-470A-92E0-B575027918D7 and the UI client are currently running
+[debug] [BaseDriver] Event 'simStarted' logged at 1540643371049 (20:29:31 GMT+0800 (+08))
+[debug] [XCUITest] Verifying application platform
+[debug] [XCUITest] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+[debug] [XCUITest] App 'com.whitecloak.PeraHub' is already installed. No need to reinstall.
+[debug] [BaseDriver] Event 'appInstalled' logged at 1540643371250 (20:29:31 GMT+0800 (+08))
+[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[debug] [XCUITest] No obsolete cached processes from previous WDA sessions listening on port 56481 have been found
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [XCUITest] WDA is not listening at 'http://localhost:56481/'
+[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1540643371361 (20:29:31 GMT+0800 (+08))
+[XCUITest] Launching WebDriverAgent on the device
+[debug] [XCUITest] Carthage found: '/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/carthage/0.18.1/etc/bash_completion.d/carthage'
+[debug] [XCUITest] Killing running processes 'xcodebuild.*FFBFBB9A-09BF-470A-92E0-B575027918D7, iproxy 56481, FFBFBB9A-09BF-470A-92E0-B575027918D7.*XCTRunner' for the device FFBFBB9A-09BF-470A-92E0-B575027918D7...
+[debug] [XCUITest] 'pgrep -nif xcodebuild.*FFBFBB9A-09BF-470A-92E0-B575027918D7' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif iproxy 56481' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif FFBFBB9A-09BF-470A-92E0-B575027918D7.*XCTRunner' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] Using Xcode 9.4.1, so fixing WDA codebase
+[debug] [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=FFBFBB9A-09BF-470A-92E0-B575027918D7 IPHONEOS_DEPLOYMENT_TARGET=11.4' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[debug] [XCUITest] Output from xcodebuild will not be logged. To change this, use 'showXcodeLog' desired capability
+[debug] [XCUITest] Waiting up to 60000ms for WebDriverAgent to start
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [XCUITest] Log file for xcodebuild test: /var/folders/cw/2__wmwwx43d5pwv37mcslbm80000gn/T/com.apple.dt.XCTest/IDETestRunSession-D1C96EC6-AF2A-4DBF-B463-F803AF0C56D5/WebDriverAgentRunner-39F781C1-DBBF-40D1-897E-D2210BC93092/Session-WebDriverAgentRunner-2018-10-27_202936-1TAll2.log
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:56481/status] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.4\",\n      \"sdkVersion\" : \"11.3\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.4\",\n      \"ip\" : \"192.168.43.240\"\n    },\n    \"build\" : {\n      \"time\" : \"Oct 27 2018 17:23:49\"\n    }\n  },\n  \"sessionId\" : \"A754B0AA-19DF-445C-8D1E-5BDAFE4EC05B\",\n  \"status\" : 0\n}"
+[debug] [XCUITest] WebDriverAgent running on ip '192.168.43.240'
+[debug] [XCUITest] WebDriverAgent successfully started after 9877ms
+[debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1540643381512 (20:29:41 GMT+0800 (+08))
+[debug] [XCUITest] Sending createSession command to WDA
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:56481/session] with body: {"desiredCapabilities":{"bundleId":"com.whitecloak.PeraHub","arguments":[],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"A24BD99C-50E3-40DF-89A1-8626C5E7F5B1","capabilities":{"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub"}},"sessionId":"A24BD99C-50E3-40DF-89A1-8626C5E7F5B1","status":0}
+[debug] [BaseDriver] Event 'wdaSessionStarted' logged at 1540643384344 (20:29:44 GMT+0800 (+08))
+[debug] [BaseDriver] Event 'wdaStarted' logged at 1540643384346 (20:29:44 GMT+0800 (+08))
+[XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[debug] [BaseDriver] Event 'orientationSet' logged at 1540643384346 (20:29:44 GMT+0800 (+08))
+[Appium] New XCUITestDriver session created successfully, session 1658547c-2c94-42d8-8c44-696184f38c00 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1540643384348 (20:29:44 GMT+0800 (+08))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"app":"/Users/appleramos/Downloads/Mobile-Automation-Katalon/Data Files/PeraHub v1.0.5-QAT.app","automationName":"XCUITest","deviceId":"FFBFBB9A-09BF-470A-92E0-B575027918D7","deviceName":"iPhone 6","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"FFBFBB9A-09BF-470A-92E0-B575027918D7","waitForAppScript":"true;","wdaLocalPort":56481}
+[HTTP] <-- POST /wd/hub/session 200 68534 ms - 769
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getStatus() with args: []
+[debug] [W3C] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 32 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/1658547c-2c94-42d8-8c44-696184f38c00/timeouts
+[HTTP] {"type":"implicit","ms":60000}
+[debug] [W3C] Bad parameters: BadParametersError: Parameters were incorrect. We wanted "W3C protocol expects any of script, pageLoad or implicit to be set" and you sent {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/1658547c-2c94-42d8-8c44-696184f38c00/timeouts 400 27 ms - 4300
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/1658547c-2c94-42d8-8c44-696184f38c00/source
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getPageSource() with args: ["1658547c-2c94-42d8-8c44-696184f38c00"]
+[debug] [XCUITest] Executing command 'getPageSource'
+[debug] [JSONWP Proxy] Proxying [GET /source] to [GET http://localhost:56481/session/A24BD99C-50E3-40DF-89A1-8626C5E7F5B1/source] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?>\\n<XCUIElementTypeApplication type=\\\"XCUIElementTypeApplication\\\" name=\\\"PeraHub\\\" label=\\\"PeraHub\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"375\\\" height=\\\"667\\\">\\n  <XCUIElementTypeWindow type=\\\"XCUIElementTypeWindow\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"375\\\" height=\\\"667\\\">\\n    <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"375\\\" height=\\\"667\\\">\\n      <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"375\\\" height=\\\"667\\\">\\n        <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"375\\\" height=\\\"84\\\">\\n          <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\...
+[debug] [MJSONWP] Responding to client with driver.getPageSource() result: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><AppiumAUT><XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"PeraHub\" label=\"PeraHub\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"667\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"667\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"667\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"667\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"84\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"84\">\n            <XCUIElementTypeImage type=\"XCUIElementTypeImage\" name=\"bg_dark_blue_gradient...
+[HTTP] <-- GET /wd/hub/session/1658547c-2c94-42d8-8c44-696184f38c00/source 200 1386 ms - 16825
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/1658547c-2c94-42d8-8c44-696184f38c00/screenshot
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["1658547c-2c94-42d8-8c44-696184f38c00"]
+[debug] [XCUITest] Executing command 'getScreenshot'
+[debug] [XCUITest] Taking screenshot with WDA
+[debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:56481/session/A24BD99C-50E3-40DF-89A1-8626C5E7F5B1/screenshot] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAIAAABFtaRRAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAOoju89B1IAAEAASURBVHgB\\r\\n7L1XkBxXuueX7b0vn1mZWeldVTdAN\\/QzQzsczpAckkPvySEIgCBAwhPetvcW3fAk\\r\\nZ\\/buShEbermK2Ld90YP0sLpXd6XVsxT7pAhFyO1cQ\\/2\\/c6qqq02CXWCDBMhCnKgo\\r\\nZGVlnsyuPOd3\\/p8TUvZESRtL2WgTKWuStWl6pR2wcSTlDKCJ1mSx5XdjRxDtkXyz\\r\\nxkRqbDdzuuTgpScKf++eSbnnUk5\\/yhmihvPS2YuN9206Zc4nrYWkuVjoKu8we11x\\r\\nReEn2thuSWcEjXVjhF3XRNpEm5QNamlrLG2NiE6\\/6JxJeSdT3vGYO4EWdyap2dNo\\r\\nSWqF28guiu2Pr5xDK72HhXtVvFi8Yf1f\\/nOUfz83dpmFU3\\/f21U5zve8A6Izjl+7\\r\\n6ExKzrTszSr+Ytq7ILl4vVjSltIe2gVqzjdp5+u0e5V9ekHy5kR3KuVM4VcnOhdk\\r\\n96LiXVG8Swq+7s7RMd2LsnuZmnNVdq7TK\\/13SfYuyN48zohXdmR2OvdyKphPBRdE\\r\\n7yJa2p9P+9gBDUdmR6AvzqeDqbQ\\/w\\/a5qrhLaOxQtDO+IvpLondZ9K6m3CuSS92W\\r\\ngzlq+KK7wPqzREf2lkTnL6LzN9iTXQsdRPEnFG+GnYtdo3s5Y32j2Nfpu\\/5MKjuV\\r\\nys6gh6J\\/gXdMcecVl26LFCyKudlk77TUOyLlpsXgUsr7OuV+I7pfo5\\/spBcV57Li\\r\\n4D11CUdIBEuJ4CJ6KPuX0Bncc9GZl9yFtDsj2lPf889a+fptcgfwZJXVUs5kW...
+[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAIAAABFtaRRAAAAAXNSR0IArs4c6QAA\r\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAOoju89B1IAAEAASURBVHgB\r\n7L1XkBxXuueX7b0vn1mZWeldVTdAN/QzQzsczpAckkPvySEIgCBAwhPetvcW3fAk\r\nZ/buShEbermK2Ld90YP0sLpXd6XVsxT7pAhFyO1cQ/2/c6qqq02CXWCDBMhCnKgo\r\nZGVlnsyuPOd3/p8TUvZESRtL2WgTKWuStWl6pR2wcSTlDKCJ1mSx5XdjRxDtkXyz\r\nxkRqbDdzuuTgpScKf++eSbnnUk5/yhmihvPS2YuN9206Zc4nrYWkuVjoKu8we11x\r\nReEn2thuSWcEjXVjhF3XRNpEm5QNamlrLG2NiE6/6JxJeSdT3vGYO4EWdyap2dNo\r\nSWqF28guiu2Pr5xDK72HhXtVvFi8Yf1f/nOUfz83dpmFU3/f21U5zve8A6Izjl+7\r\n6ExKzrTszSr+Ytq7ILl4vVjSltIe2gVqzjdp5+u0e5V9ekHy5kR3KuVM4VcnOhdk\r\n96LiXVG8Swq+7s7RMd2LsnuZmnNVdq7TK/13SfYuyN48zohXdmR2OvdyKphPBRdE\r\n7yJa2p9P+9gBDUdmR6AvzqeDqbQ/w/a5qrhLaOxQtDO+IvpLondZ9K6m3CuSS92W\r\ngzlq+KK7wPqzREf2lkTnL6LzN9iTXQsdRPEnFG+GnYtdo3s5Y32j2Nfpu/5MKjuV\r\nys6gh6J/gXdMcecVl26LFCyKudlk77TUOyLlpsXgUsr7OuV+I7pfo5/spBcV57Li\r\n4D11CUdIBEuJ4CJ6KPuX0Bncc9GZl9yFtDsj2lPf889a+fptcgfwZJXVUs5kWQ1P\r\n323Vkv5I0h8TvTHWq2nRnZUc1twpCV31JtCSPrWEP4UWyw7xhi9K3kjamUp4s1H/\r\n...
+[HTTP] <-- GET /wd/hub/session/1658547c-2c94-42d8-8c44-696184f38c00/screenshot 200 222 ms - 623738
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/1658547c-2c94-42d8-8c44-696184f38c0[BaseDriver] Shutting down because we waited 1800 seconds for a command
+[debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [iOSLog] Stopping iOS log capture
+[Appium] Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session 2f69f7b4-aac1-4d46-ba58-bb0ba6846658 from our master session list
+tTypeApplication type=\\\"XCUIElementTypeApplication\\\" name=\\\"PeraHub\\\" label=\\\"PeraHub\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"375\\\" height=\\\"667\\\">\\n  <XCUIElementTypeWindow type=\\\"XCUIElementTypeWindow\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"375\\\" height=\\\"667\\\">\\n    <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\\\" enabled=\\\"true\\\" visible=\\\"false\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"375\\\" height=\\\"667\\\"\\/>\\n    <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"375\\\" height=\\\"667\\\">\\n      <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"375\\\" height=\\\"667\\\">\\n        <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\\...
+[debug] [MJSONWP] Responding to client with driver.getPageSource() result: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><AppiumAUT><XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"PeraHub\" label=\"PeraHub\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"667\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"667\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"false\" x=\"0\" y=\"0\" width=\"375\" height=\"667\"/>\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"667\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"667\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"667\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\...
+[HTTP] <-- GET /wd/hub/session/1658547c-2c94-42d8-8c44-696184f38c00/source 200 1429 ms - 20572
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/1658547c-2c94-42d8-8c44-696184f38c00/screenshot
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["1658547c-2c94-42d8-8c44-696184f38c00"]
+[debug] [XCUITest] Executing command 'getScreenshot'
+[debug] [XCUITest] Taking screenshot with WDA
+[debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:56481/session/A24BD99C-50E3-40DF-89A1-8626C5E7F5B1/screenshot] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAIAAABFtaRRAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAIBb0Y3uCsAAEAASURBVHgB\\r\\n7L1XkBxXmu+X7b3v8umq0puqboAccsihGQ7tksNZcugN6EAOQRAAARKEI7xttPce\\r\\nlmbm7tWLQi+rCL3pRQ\\/Sw9Wu9kpXz1LcJ0UoQu7O7l7q\\/52TVV1tEuhqNEgArIgT\\r\\nGYXsrDQHlef8zv9zQtIaK2ojSQttLGmOszZJWzoAO4eS9kW0lDleaMFh7Awpayho\\r\\n5kiKGjvMmCw6efGFwj87Z5PO+aTdl7QHqOG6dPVC4\\/c2mTRmE+ZcwljI3yq\\/YbZd\\r\\n9kThF1rfYQl7CI3dxhB7rjHJQBuXdWqSOSKZQym7L2WfTbqnku6JqDOGFrPHqVmT\\r\\naAlq+W5kD8WOx1fOoxX3Yb6vCg+LD+z+l\\/47Su\\/P9T1m\\/tK32l3l89xiD6TsUfza\\r\\nU\\/a4aE\\/K7rTiLUjuvOhge6moLUou2jxa0v026V5LeYspb1bypkV3El9MWVMpY1Yy\\r\\nL8n2NcX5TnGvKu5l0ZlLOdNpZxZN9qbQUj41iX2mazmzijOv2PQt2f425XyPhr+i\\r\\npbJjqexEyp+mC7lXUrgitt6ixC4qu7OyO0\\/fdRaTubFkdgo3gwMk+y+S\\/QP+RAc4\\r\\nlyR7UXRn6Cb9BdGfS+aGErmLknNFcq7hMGxT2RFqdAk80Twae8ZF2VkMTuJOR72\\/\\r\\nxL3vZedK2r6Utq4o9rWkdyXuX4pncW90lbT1rWL+RXZ+iOcWIlvwUNfRRO9yyr2E\\r\\nI9FX1F2sx3DzsjeGRs9IPYk\\/fS\\/iWt5ldC\\/6PGXPotMkZyplTdzif2v563dID...
+[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAIAAABFtaRRAAAAAXNSR0IArs4c6QAA\r\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAIBb0Y3uCsAAEAASURBVHgB\r\n7L1XkBxXmu+X7b3v8umq0puqboAccsihGQ7tksNZcugN6EAOQRAAARKEI7xttPce\r\nlmbm7tWLQi+rCL3pRQ/Sw9Wu9kpXz1LcJ0UoQu7O7l7q/52TVV1tEuhqNEgArIgT\r\nGYXsrDQHlef8zv9zQtIaK2ojSQttLGmOszZJWzoAO4eS9kW0lDleaMFh7Awpayho\r\n5kiKGjvMmCw6efGFwj87Z5PO+aTdl7QHqOG6dPVC4/c2mTRmE+ZcwljI3yq/YbZd\r\n9kThF1rfYQl7CI3dxhB7rjHJQBuXdWqSOSKZQym7L2WfTbqnku6JqDOGFrPHqVmT\r\naAlq+W5kD8WOx1fOoxX3Yb6vCg+LD+z+l/47Su/P9T1m/tK32l3l89xiD6TsUfza\r\nU/a4aE/K7rTiLUjuvOhge6moLUou2jxa0v026V5LeYspb1bypkV3El9MWVMpY1Yy\r\nL8n2NcX5TnGvKu5l0ZlLOdNpZxZN9qbQUj41iX2mazmzijOv2PQt2f425XyPhr+i\r\npbJjqexEyp+mC7lXUrgitt6ixC4qu7OyO0/fdRaTubFkdgo3gwMk+y+S/QP+RAc4\r\nlyR7UXRn6Cb9BdGfS+aGErmLknNFcq7hMGxT2RFqdAk80Twae8ZF2VkMTuJOR72/\r\nxL3vZedK2r6Utq4o9rWkdyXuX4pncW90lbT1rWL+RXZ+iOcWIlvwUNfRRO9yyr2E\r\nI9FX1F2sx3DzsjeGRs9IPYk/fS/iWt5ldC/6PGXPotMkZyplTdzif2v563dID+DN\r\nKqkl7fGSWsqZuKNawhtKeCMpd4Td1SRGANFmzZkQcavuGFrCoxb3JtCi2QHe8EXR\r\n...
+[HTTP] <-- GET /wd/hub/session/1658547c-2c94-42d8-8c44-696184f38c00/screenshot 200 101 ms - 278618
+[HTTP] 
+[XCUITest] xcodebuild exited with code 'null' and signal 'SIGINT'
+[BaseDriver] Shutting down because we waited 1800 seconds for a command
+[debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [iOSLog] Stopping iOS log capture
+[Appium] Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session 1658547c-2c94-42d8-8c44-696184f38c00 from our master session list
